@@ -18,7 +18,7 @@ class AuthViaPasswordPresenter(private val authViaPasswordUI: IAuthViaPasswordUI
 
         withContext(Dispatchers.IO) {
             val token = AESUtil.decrypt(getToken(context), password)
-            if (token == null) authViaPasswordUI.onError(Error.Reason.INVALID_TOKEN)
+            if (token == null) withContext(Dispatchers.Main) {authViaPasswordUI.onError(Error.Reason.INVALID_TOKEN)}
             else {
                 val response = RetrofitDataProvider()
                     .getStrictProvider()

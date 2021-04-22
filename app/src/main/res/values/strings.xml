@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TinkoffSourseCode</string>
+    <string name="password_must_meet_requirements">Пароли должны быть одинаковыми и равными 4 символам</string>
+    <string name="unknown_error">Непредвиденная ошибка</string>
+    <string name="login_or_password_not_correct">Неверный логин или пароль</string>
+    <string name="bad_server_response">Неверный ответ сервера</string>
+    <string name="bad_connection">Ошибка подключения. Повторите попытку</string>
+    <string name="bad_app_key">Неверный APP-KEY</string>
+    <string name="currency_plus_amount_cardview">%1$s: %2$s</string>
+    <string name="create_personal_pass_title">Четырех-факорная аутентификаиця</string>
+    <string name="recyclerView_title">Пакет: "юный инвестор"</string>
+    <string name="input_personal_pass_title">Вход в TinkoffSecrets</string>
+    <string name="authorization">Авторизация</string>
+    <string name="LogIn">Войти</string>
+    <string name="password">Пароль</string>
+    <string name="input_loginOrPassword">Введите логин или email</string>
+    <string name="forgot_password">Не могу вспомнить пароль</string>
+    <string name="input_password">Ввести пароль</string>
+    <string name="auth">Вход</string>
+    <string name="second_personal_key_input">Повторите ключ</string>
+    <string name="first_personal_key_input">Секретный ключ</string>
+    <string name="save">Сохранить</string>
+    <string name="set_password">Установите пароль</string>
+
+</resources>
